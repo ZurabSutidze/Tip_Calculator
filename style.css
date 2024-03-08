@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Space Mono";
+    background: #C5E4E7;
+}
+
+
+.Splitter{
+    font-size: 24px;
+    color: #3D6666;
+    line-height: 150%;
+    letter-spacing: 8px;
+    margin-top: 50px;
+}
+
+.Whitebox{
+    width: 375px;
+    height: 789px;
+    flex-shrink: 0;
+    border-radius: 25px 25px ;
+    background: #FFF;
+    box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+.Bill{
+    border-radius: 5px;
+    background: #F3F9FA;
+    width: 311px;
+    height: 48px;
+    flex-shrink: 0;
+    padding-right: 18px;
+    color: #00474B;
+    text-align: right;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 62px;
+    background-image: url(Assets/$.svg);
+    background-repeat: no-repeat;
+    background-position: top 16px left 17px;
+}
+
+.Bill::placeholder{
+    color: #00474B;
+    text-align: right;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 0.35;
+    
+}
+
+.Totalbill{
+    color: #5E7A7D;
+    font-family: 'Space Mono';
+    font-size: 16px;
+    font-weight: 700;
+    width: 47px;
+    position: absolute;
+    left: 32px;
+    top: 32px;
+}
+
+.Boxes{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 14px;
+    row-gap: 16px;
+    margin-top: 16px;
+}
+
+.Box{
+    width: 146.631px;
+    height: 48px;
+    border-radius: 5px;
+    background: #00474B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Custom{
+    width: 146.631px;
+    height: 48px;
+    border-radius: 5px;
+    background: #F3F9FA;
+    position: relative;
+    padding-right: 14px;
+    border: none;
+    outline: none;
+    color: #00474B;
+    text-align: right;
+    font-family: "Space Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+}
+
+.Custom::placeholder{
+    color: #547878;
+    text-align: right;
+    font-family: "Space Mono";
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 0.35;
+}
+
+.SelectTip{
+    width: 140px;
+    color: #5E7A7D;
+    font-family: 'Space Mono';
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-right: 170px;
+
+}
+
+.Procenti{
+    color: #F3F9FA;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+.Cyan{
+    background: #9FE8DF;
+}
+
+.Mwvane{
+    color: #00474B;
+}
+
+input{
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Numberof{
+    width: 186px;
+    color: #5E7A7D;
+    font-family: 'Space Mono';
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-right: 115px;
+}
+
+.Adamianebi{
+    border-radius: 5px;
+    background: #F3F9FA;
+    width: 311px;
+    height: 48px;
+    margin-top: 6px;
+    padding-right: 16px;
+    color: #00474B;
+    text-align: right;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-weight: 700;
+    background-image: url(Assets/Kacuna.svg);
+    background-repeat: no-repeat;
+    background-position: top 16px left 17px;
+    position: relative;
+}
+
+.Adamianebi::placeholder{
+    color: #547878;
+    text-align: right;
+    font-family: "Space Mono";
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 0.35;
+}
+
+.TotalTipAndtotal{
+    width: 327px;
+    height: 257px;
+    border-radius: 15px;
+    background: #00474B;
+    margin-top: 32px;
+}
+
+
+.Samething{
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Samething span{
+    color: #7F9D9F;
+    font-family: 'Space Mono';
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.Lastp{
+    color: #26C2AE;
+    text-align: right;
+    font-family: 'Space Mono';
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.667px;
+    margin-right: 22px;
+}
+
+.OnlyTotal , .OnlyTip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.OnlyTip{
+    margin-top: 39px;
+    margin-left: 26px;
+}
+
+.OnlyTotal{
+  margin-top: 25px;
+  margin-left: 24px;
+}
+
+.Error{
+    position: absolute;
+    color: #E17457;
+    text-align: right;
+    font-family: 'Space Mono';
+    font-size: 16px;
+    font-weight: 700;
+    right: 15px;
+    top: 388px;
+}
+
+button{
+    width: 281px;
+    height: 48px;
+    border-radius: 5px;
+    background: #0D686D;    
+    color: #00474B;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 33px;
+    margin-left: 24px;
+}
+
+button:hover{
+    background: #26C2AE;
+    cursor: pointer;
+}
+
+.Outliner{
+    border-radius: 5px;
+    border: 2px solid #26C2AE;
+}
+
+.Outliner2{
+    border-radius: 5px;
+    border: 2px solid #E17052;
+}
+
+.Box:hover{
+    background-color: #26C2AE;
+}
+
+.Box:hover p{
+    color: #00474B;
+}
+
+.Bill:hover , .Custom.hover{
+    border-radius: 5px;
+    border: 2px solid #26C2AE;
+    cursor: pointer;
+}
+
+.Adamianebi:hover{
+    border-radius: 5px;
+    border: 2px solid #E17052;
+    cursor: pointer;
+}
+
+

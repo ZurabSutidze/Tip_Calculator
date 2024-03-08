@@ -1,0 +1,95 @@
+@media (width > 1439px) {
+    .Splitter{
+        margin-top: 163px;
+    }
+
+    .Whitebox{
+        width: 920px;
+        height: 481px;
+        border-radius: 25px;
+        background: #FFF;
+        box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
+        flex-direction: row;
+        padding-left: 48px;
+        margin-top: 88px;
+        margin-bottom: 239px;
+    }
+
+    .Totalbill{
+        left: 48px;
+        top: 45px;
+    }
+
+    .Bill{
+        margin-top: 5px;
+        width: 379px;
+        height: 48px;
+    }
+
+    .Adamianebi{
+        width: 379px;
+        height: 48px;
+    }
+
+    .Boxes{
+        grid-template-columns: auto auto auto;
+    }
+
+    .Box{
+        width: 117px;
+        height: 48px;
+    }
+
+    .Custom{
+        width: 117px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Custom::placeholder{
+        left: 15px;
+        top: 6px;
+    }
+
+    .TotalTipAndtotal{
+        width: 413px;
+        height: 417px;
+        margin-left: 48px;
+        margin-bottom: 32px;
+    }
+
+    .Lastp{
+        color: #26C2AE;
+        text-align: right;
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: -1px;
+        margin-right: 40px;
+    }
+
+    .OnlyTotal, .OnlyTip{
+        margin-left: 40px;
+        align-items: center;
+    }
+
+    button{
+        width: 333px;
+        height: 48px;
+        margin-left: 40px;
+        margin-top: 122px;
+    }
+
+    .Error{
+        right: 493px;
+        top: 335px;
+        color: #E17457;
+        text-align: right;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+
+
+}
