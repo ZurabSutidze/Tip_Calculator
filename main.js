@@ -46,7 +46,7 @@ Bill.addEventListener("input", function () {
 });
 
 Adamianebi.addEventListener("focus", function () {
-    Adamianebi.classList.toggle("Outliner2")
+    Adamianebi.classList.toggle("Outliner")
 })
 
 Bill.addEventListener("blur", function () {
