@@ -300,16 +300,12 @@ button:hover{
     color: #00474B;
 }
 
-.Bill:hover , .Custom.hover{
+.Bill:hover , .Custom.hover , .Adamianebi:hover{
     border-radius: 5px;
     border: 2px solid #26C2AE;
     cursor: pointer;
 }
 
-.Adamianebi:hover{
-    border-radius: 5px;
-    border: 2px solid #26C2AE
-    cursor: pointer;
-}
+.Adamianebi:hover
 
 
