@@ -58,7 +58,7 @@ Custom.addEventListener("blur", function () {
 })
 
 Adamianebi.addEventListener("blur", function () {
-    Adamianebi.classList.remove("Outliner2")
+    Adamianebi.classList.remove("Outliner")
 })
 
 
